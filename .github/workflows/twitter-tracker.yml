@@ -1,1 +1,41 @@
+name: Twitter Follower Tracker
 
+on:
+  # Run daily at 2 AM UTC
+  schedule:
+    - cron: '0 2 * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  track-followers:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install dependencies
+        run: npm install
+      
+      - name: Fetch follower counts
+        env:
+          TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
+          TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
+        run: npx tsx src/fetch-followers.ts
+      
+      - name: Calculate metrics
+        run: npx tsx src/calculate-metrics.ts
+      
+      - name: Commit and push data
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/ output/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update Twitter follower data - $(date +'%Y-%m-%d')" && git push)
