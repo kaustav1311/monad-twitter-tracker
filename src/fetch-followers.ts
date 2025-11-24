@@ -141,7 +141,7 @@ async function main() {
     if ((i + 1) % 50 === 0) {
       console.log(`\n💾 Progress: ${i + 1}/${partners.length} complete`);
       console.log(`⏸️  Taking 30s break to avoid rate limits...\n`);
-      await new Promise(resolve => setTimeout(resolve, 30000));
+      await new Promise(resolve => setTimeout(resolve, 250000));
     }
   }
 
