@@ -1,1 +1,22 @@
-
+{
+  "name": "monad-twitter-tracker",
+  "version": "1.0.0",
+  "description": "Automated Twitter follower tracking for Monad ecosystem partners",
+  "main": "index.js",
+  "scripts": {
+    "fetch": "tsx src/fetch-followers.ts",
+    "metrics": "tsx src/calculate-metrics.ts",
+    "track": "npm run fetch && npm run metrics"
+  },
+  "keywords": ["twitter", "tracking", "monad", "followers"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "twitter-openapi-typescript": "^0.0.55"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
