@@ -29,39 +29,32 @@ async function extractTwitterHandle(url: string): Promise<string | null> {
 
 async function getFollowerCount(
   client: any,
-  handle: string,
-  retries: number = 3
+  handle: string
 ): Promise<{ count: number; status: 'success' | 'error'; error?: string }> {
-  for (let attempt = 0; attempt < retries; attempt++) {
-    try {
-      const response = await client.getUserApi().getUserByScreenName({
-        screenName: handle
-      });
+  try {
+    const response = await client.getUserApi().getUserByScreenName({
+      screenName: handle
+    });
 
-      const userLegacy = response.data?.user?.legacy;
-      
-      if (!userLegacy) {
-        return { count: 0, status: 'error', error: 'User not found' };
-      }
-
-      return {
-        count: userLegacy.followersCount || 0,
-        status: 'success'
-      };
-    } catch (error: any) {
-      if (attempt < retries - 1) {
-        await new Promise(resolve => setTimeout(resolve, 10000 * (attempt + 1))); // 10s, 20s, 30s
-        continue;
-      }
-      return {
-        count: 0,
-        status: 'error',
-        error: error.message || 'Rate limited'
-      };
+    const userLegacy = response.data?.user?.legacy;
+    
+    if (!userLegacy) {
+      return { count: 0, status: 'error', error: 'User not found' };
     }
+
+    return {
+      count: userLegacy.followersCount || 0,
+      status: 'success'
+    };
+  } catch (error: any) {
+    return {
+      count: 0,
+      status: 'error',
+      error: error.message || 'Unknown error'
+    };
   }
-  return { count: 0, status: 'error', error: 'Max retries' };
 }
+
 
 async function main() {
   console.log('🐦 Twitter Follower Tracker Started');
@@ -146,7 +139,9 @@ async function main() {
 
     // Progress update every 50
     if ((i + 1) % 50 === 0) {
-      console.log(`\n💾 Progress: ${i + 1}/${partners.length} complete\n`);
+      console.log(`\n💾 Progress: ${i + 1}/${partners.length} complete`);
+      console.log(`⏸️  Taking 30s break to avoid rate limits...\n`);
+      await new Promise(resolve => setTimeout(resolve, 30000));
     }
   }
 
