@@ -87,7 +87,7 @@ async function main() {
       const parts = line.split(',');
       return {
         name: parts[0]?.trim() || '',
-        twitterLink: parts[2]?.trim() || '' // Assuming Twitter Link is column 3
+        twitterLink: parts[1]?.trim() || '' // Assuming Twitter Link is column 3
       };
     });
 
