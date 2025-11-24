@@ -29,30 +29,38 @@ async function extractTwitterHandle(url: string): Promise<string | null> {
 
 async function getFollowerCount(
   client: any,
-  handle: string
+  handle: string,
+  retries: number = 3
 ): Promise<{ count: number; status: 'success' | 'error'; error?: string }> {
-  try {
-    const response = await client.getUserApi().getUserByScreenName({
-      screenName: handle
-    });
+  for (let attempt = 0; attempt < retries; attempt++) {
+    try {
+      const response = await client.getUserApi().getUserByScreenName({
+        screenName: handle
+      });
 
-    const userLegacy = response.data?.user?.legacy;
-    
-    if (!userLegacy) {
-      return { count: 0, status: 'error', error: 'User not found' };
+      const userLegacy = response.data?.user?.legacy;
+      
+      if (!userLegacy) {
+        return { count: 0, status: 'error', error: 'User not found' };
+      }
+
+      return {
+        count: userLegacy.followersCount || 0,
+        status: 'success'
+      };
+    } catch (error: any) {
+      if (attempt < retries - 1) {
+        await new Promise(resolve => setTimeout(resolve, 10000 * (attempt + 1))); // 10s, 20s, 30s
+        continue;
+      }
+      return {
+        count: 0,
+        status: 'error',
+        error: error.message || 'Rate limited'
+      };
     }
-
-    return {
-      count: userLegacy.followersCount || 0,
-      status: 'success'
-    };
-  } catch (error: any) {
-    return {
-      count: 0,
-      status: 'error',
-      error: error.message || 'Unknown error'
-    };
   }
+  return { count: 0, status: 'error', error: 'Max retries' };
 }
 
 async function main() {
@@ -134,7 +142,7 @@ async function main() {
     }
 
     // Rate limiting: 1 request per 2 seconds
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    await new Promise(resolve => setTimeout(resolve, 5000));
 
     // Progress update every 50
     if ((i + 1) % 50 === 0) {
