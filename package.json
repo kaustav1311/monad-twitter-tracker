@@ -4,8 +4,8 @@
   "description": "Automated Twitter follower tracking for Monad ecosystem partners",
   "main": "index.js",
   "scripts": {
-    "fetch": "tsx src/fetch-followers.ts",
-    "metrics": "tsx src/calculate-metrics.ts",
+    "fetch": "npx tsx src/fetch-followers.ts",
+    "metrics": "npx tsx src/calculate-metrics.ts",
     "track": "npm run fetch && npm run metrics"
   },
   "keywords": [
