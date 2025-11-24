@@ -8,15 +8,28 @@
     "metrics": "tsx src/calculate-metrics.ts",
     "track": "npm run fetch && npm run metrics"
   },
-  "keywords": ["twitter", "tracking", "monad", "followers"],
+  "keywords": [
+    "twitter",
+    "tracking",
+    "monad",
+    "followers"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "twitter-openapi-typescript": "^0.0.55"
   },
   "devDependencies": {
-    "@types/node": "^20.10.0",
-    "tsx": "^4.7.0",
-    "typescript": "^5.3.3"
-  }
+    "@types/node": "^20.19.25",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaustav1311/monad-twitter-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaustav1311/monad-twitter-tracker/issues"
+  },
+  "homepage": "https://github.com/kaustav1311/monad-twitter-tracker#readme"
 }
