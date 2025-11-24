@@ -28,10 +28,10 @@ jobs:
         env:
           TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
           TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
-        run: npx tsx src/fetch-followers.ts
+        run: npm run fetch
       
       - name: Calculate metrics
-        run: npx tsx src/calculate-metrics.ts
+        run: npm run metrics
       
       - name: Commit and push data
         run: |
