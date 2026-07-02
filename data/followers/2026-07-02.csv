@@ -1,0 +1,304 @@
+date,name,handle,followerCount,status,error
+2026-07-02,0x,0xProject,0,error,Response returned an error code
+2026-07-02,Agora,withAUSD,0,error,Response returned an error code
+2026-07-02,AZEx,azex_io,0,error,Response returned an error code
+2026-07-02,Aarna,aarnasays,0,error,Response returned an error code
+2026-07-02,Accountable,AccountableData,0,error,Response returned an error code
+2026-07-02,Across Protocol,AcrossProtocol,0,error,Response returned an error code
+2026-07-02,Acurast,Acurast,0,error,Response returned an error code
+2026-07-02,AethonSwap,AethonSwap,0,error,Response returned an error code
+2026-07-02,Alchemy,Alchemy,0,error,Response returned an error code
+2026-07-02,AllDomains,alldomains,0,error,Response returned an error code
+2026-07-02,Allium,AlliumLabs,0,error,Response returned an error code
+2026-07-02,Ambient,ambient_finance,0,error,Response returned an error code
+2026-07-02,Ambire,ambirewallet,0,error,Response returned an error code
+2026-07-02,Amertis,AmertisExchange,0,error,Response returned an error code
+2026-07-02,Ammalgam,Ammalgam,0,error,Response returned an error code
+2026-07-02,ApeBond,apebond,0,error,Response returned an error code
+2026-07-02,Apriori,apriori,0,error,Response returned an error code
+2026-07-02,Atlantis,atlantisdex_xyz,0,error,Response returned an error code
+2026-07-02,Atomic Wallet,atomicwallet,0,error,Response returned an error code
+2026-07-02,Azaar,AzaarExchange,0,error,Response returned an error code
+2026-07-02,Backpack,Backpack,0,error,Response returned an error code
+2026-07-02,Balancer,Balancer,0,error,Response returned an error code
+2026-07-02,Band Protocol,BandProtocol,0,error,Response returned an error code
+2026-07-02,Bean Exchange,Bean_DEX,0,error,Response returned an error code
+2026-07-02,Bebop,bebop_dex,0,error,Response returned an error code
+2026-07-02,Biconomy,biconomy,0,error,Response returned an error code
+2026-07-02,Bima,bimabtc,0,error,Response returned an error code
+2026-07-02,Birdeye,birdeye_so,0,error,Response returned an error code
+2026-07-02,Birdeye Data Services,birdeye_data,0,error,Response returned an error code
+2026-07-02,Bitget Wallet,BitgetWallet,0,error,Response returned an error code
+2026-07-02,Blazpay,blazpaylabs,0,error,Response returned an error code
+2026-07-02,BlockStreet,blockst_hq,0,error,Response returned an error code
+2026-07-02,BlockVision,blockvisionhq,0,error,Response returned an error code
+2026-07-02,Blockdaemon,BlockdaemonHQ,0,error,Response returned an error code
+2026-07-02,Blocklive,blocklive_,0,error,Response returned an error code
+2026-07-02,Breath of Estova,BreathOfEstova,0,error,Response returned an error code
+2026-07-02,Buzzing App,BuzzingApp,0,error,Response returned an error code
+2026-07-02,Bybit Web3 Wallet,Bybit_Web3,0,error,Response returned an error code
+2026-07-02,CPLX,cplx_io,0,error,Response returned an error code
+2026-07-02,CULT,cultdottrade,0,error,Response returned an error code
+2026-07-02,Caddy Finance,caddyfi,0,error,Response returned an error code
+2026-07-02,Capa,capa_fi,0,error,Response returned an error code
+2026-07-02,Castora,Castora_xyz,0,error,Response returned an error code
+2026-07-02,Catton AI,Cattontw,0,error,Response returned an error code
+2026-07-02,Celeris,0xCeleris,0,error,Response returned an error code
+2026-07-02,Chainbase,ChainbaseHQ,0,error,Response returned an error code
+2026-07-02,Chainlink,chainlink,0,error,Response returned an error code
+2026-07-02,Chainsight,Chainsight_,0,error,Response returned an error code
+2026-07-02,Chronicle,ChronicleLabs,0,error,Response returned an error code
+2026-07-02,Clober,CloberDEX,0,error,Response returned an error code
+2026-07-02,CoNFT,ConftApp,0,error,Response returned an error code
+2026-07-02,Codex,trycodex,0,error,Response returned an error code
+2026-07-02,Coin98 AI Wallet,coin98_wallet,0,error,Response returned an error code
+2026-07-02,Covenant,covenantFi,0,error,Response returned an error code
+2026-07-02,Crust Finance,CrustFinance,0,error,Response returned an error code
+2026-07-02,Crystal,CrystalExch,0,error,Response returned an error code
+2026-07-02,Cult Markets,cultmarkets,0,error,Response returned an error code
+2026-07-02,Curvance,Curvance,0,error,Response returned an error code
+2026-07-02,Cycle Network,cyclenetwork_GO,0,error,Response returned an error code
+2026-07-02,Cyferio,cyferio_labs,0,error,Response returned an error code
+2026-07-02,DAU Cards,DAUCards,0,error,Response returned an error code
+2026-07-02,DRKVRS,drkvrs,0,error,Response returned an error code
+2026-07-02,DRPC,drpcorg,0,error,Response returned an error code
+2026-07-02,DashX,dashxhq,0,error,Response returned an error code
+2026-07-02,Defined,definedfi,0,error,Response returned an error code
+2026-07-02,Demask Finance,demaskfinance,0,error,Response returned an error code
+2026-07-02,Dialect,saydialect,0,error,Response returned an error code
+2026-07-02,Diffuse,DiffuseFi,0,error,Response returned an error code
+2026-07-02,Dirol Protocol,DirolProtocol,0,error,Response returned an error code
+2026-07-02,DiscoCats,mydiscocats,0,error,Response returned an error code
+2026-07-02,Doppler Finance,dopplerprotocol,0,error,Response returned an error code
+2026-07-02,Drake,DrakeExchange,0,error,Response returned an error code
+2026-07-02,Dune Analytics,Dune,0,error,Response returned an error code
+2026-07-02,Dusted,dusted_app,0,error,Response returned an error code
+2026-07-02,Dynamic,dynamic_xyz,0,error,Response returned an error code
+2026-07-02,Dyson Finance,DysonFinance,0,error,Response returned an error code
+2026-07-02,ELFi Protocol,ELFiProtocol,0,error,Response returned an error code
+2026-07-02,EOracle,EO_Network,0,error,Response returned an error code
+2026-07-02,Eisen Finance,EisenLabs,0,error,Response returned an error code
+2026-07-02,Enjoyoors,enjoyoorsxyz,0,error,Response returned an error code
+2026-07-02,Entangle,Entanglefi,0,error,Response returned an error code
+2026-07-02,Envio,envio_indexer,0,error,Response returned an error code
+2026-07-02,Euclid Protocol,EuclidProtocol,0,error,Response returned an error code
+2026-07-02,Euler,eulerfinance,0,error,Response returned an error code
+2026-07-02,FUKU,Fuku_nad,0,error,Response returned an error code
+2026-07-02,FWX,fwxfinance,0,error,Response returned an error code
+2026-07-02,Fans3 AI,Fans3_AI,0,error,Response returned an error code
+2026-07-02,Farcaster,farcaster_xyz,0,error,Response returned an error code
+2026-07-02,FastLane,0xFastLane,0,error,Response returned an error code
+2026-07-02,Fiamma,fiamma_labs,0,error,Response returned an error code
+2026-07-02,Fizen.io,fizenapp,0,error,Response returned an error code
+2026-07-02,Flap,flapdotsh,0,error,Response returned an error code
+2026-07-02,Flipside Crypto,flipsidecrypto,0,error,Response returned an error code
+2026-07-02,Folks Finance,FolksFinance,0,error,Response returned an error code
+2026-07-02,Fonbnk,fonbnk1,0,error,Response returned an error code
+2026-07-02,Fortytwo,fortytwo,0,error,Response returned an error code
+2026-07-02,FoxWallet,FoxWallet,0,error,Response returned an error code
+2026-07-02,GM Agents,GMAgents_AI,0,error,Response returned an error code
+2026-07-02,Garden,gardenfi,0,error,Response returned an error code
+2026-07-02,Gasp,Gasp_xyz,0,error,Response returned an error code
+2026-07-02,Gateway,Gateway_xyz,0,error,Response returned an error code
+2026-07-02,Gearbox Protocol,GearboxProtocol,0,error,Response returned an error code
+2026-07-02,Gelato,gelatonetwork,0,error,Response returned an error code
+2026-07-02,Ghost,0xGhostLogs,0,error,Response returned an error code
+2026-07-02,Gifted.art,gifteddotart,0,error,Response returned an error code
+2026-07-02,GoPlus,goplussecurity,0,error,Response returned an error code
+2026-07-02,Covalent,Covalent_HQ,0,error,Response returned an error code
+2026-07-02,Golden Goose,GoldenGoose_app,0,error,Response returned an error code
+2026-07-02,Goldsky,goldskyio,0,error,Response returned an error code
+2026-07-02,Gorillionaire,gorillionaireai,0,error,Response returned an error code
+2026-07-02,HaHa Wallet,haha_app,0,error,Response returned an error code
+2026-07-02,Hashflow,hashflow,0,error,Response returned an error code
+2026-07-02,Hawk Terminal,hawkterminal_HQ,0,error,Response returned an error code
+2026-07-02,Hemera,HemeraProtocol,0,error,Response returned an error code
+2026-07-02,Henry Labs,henrylabs,0,error,Response returned an error code
+2026-07-02,Hive,Hive_Monad,0,error,Response returned an error code
+2026-07-02,Hyperlane,hyperlane,0,error,Response returned an error code
+2026-07-02,INFINIT,infinit_labs,0,error,Response returned an error code
+2026-07-02,IZUMi Finance,izumi_Finance,0,error,Response returned an error code
+2026-07-02,Impossible Finance,impossiblefi,0,error,Response returned an error code
+2026-07-02,Index Network,indexnetwork_,0,error,Response returned an error code
+2026-07-02,Jenius,JeniusRndm,0,error,Response returned an error code
+2026-07-02,Jumper Exchange,jumperexchange,0,error,Response returned an error code
+2026-07-02,KINETK,KINETK_AI,0,error,Response returned an error code
+2026-07-02,Kansei,0xKansei,0,error,Response returned an error code
+2026-07-02,KiloEx,KiloEx_perp,0,error,Response returned an error code
+2026-07-02,Kingdomly,Kingdomlyapp,0,error,Response returned an error code
+2026-07-02,Kintsu,Kintsu,0,error,Response returned an error code
+2026-07-02,Kinza Finance,kinzafinance,0,error,Response returned an error code
+2026-07-02,Kizzy,kizzymobile,0,error,Response returned an error code
+2026-07-02,Kodeus AI,TheKodeusLabs,0,error,Response returned an error code
+2026-07-02,Koywe,koywe_latam,0,error,Response returned an error code
+2026-07-02,KuCoin,KuCoin_Web3,0,error,Response returned an error code
+2026-07-02,Kuru,KuruExchange,0,error,Response returned an error code
+2026-07-02,LAGOON,lagoon_finance,0,error,Response returned an error code
+2026-07-02,LEVR.bet,levr_bet,0,error,Response returned an error code
+2026-07-02,LFJ,LFJ_gg,0,error,Response returned an error code
+2026-07-02,LI.FI,lifiprotocol,0,error,Response returned an error code
+2026-07-02,LayerZero,LayerZero_Core,0,error,Response returned an error code
+2026-07-02,Layerhub,layerhub,0,error,Response returned an error code
+2026-07-02,Leap Wallet,leap_wallet,0,error,Response returned an error code
+2026-07-02,Legends of Elysium,LegendsElysium,0,error,Response returned an error code
+2026-07-02,LeverUp,LeverUp_xyz,0,error,Response returned an error code
+2026-07-02,Likwid,likwid_fi,0,error,Response returned an error code
+2026-07-02,Lombard,Lombard_Finance,0,error,Response returned an error code
+2026-07-02,LootGO,lootgo_official,0,error,Response returned an error code
+2026-07-02,Lootify,Lootify_xyz,0,error,Response returned an error code
+2026-07-02,Lumiterra,LumiterraGame,0,error,Response returned an error code
+2026-07-02,M0narch,MonadM0narch,0,error,Response returned an error code
+2026-07-02,MERV,merv_wtf,0,error,Response returned an error code
+2026-07-02,Mace,mace_ag,0,error,Response returned an error code
+2026-07-02,Mach Exchange,mach_exchange,0,error,Response returned an error code
+2026-07-02,Madhouse,usemadhouse,0,error,Response returned an error code
+2026-07-02,Magic Eden,magiceden,0,error,Response returned an error code
+2026-07-02,Magma,MagmaStaking,0,error,Response returned an error code
+2026-07-02,Mahjong123,0xMJM,0,error,Response returned an error code
+2026-07-02,Memesteroid,memesteroid,0,error,Response returned an error code
+2026-07-02,Mentaport,mentaportinc,0,error,Response returned an error code
+2026-07-02,Meow Finance,meowfi_,0,error,Response returned an error code
+2026-07-02,Meta Leap,MetaLeap_io,0,error,Response returned an error code
+2026-07-02,MetaKeep,metakeep,0,error,Response returned an error code
+2026-07-02,Mflo,mfloai,0,error,Response returned an error code
+2026-07-02,MindAgentsAI,MindAgentsAI,0,error,Response returned an error code
+2026-07-02,Mintpad,mintpadco,0,error,Response returned an error code
+2026-07-02,Mobula,Mobulaio,0,error,Response returned an error code
+2026-07-02,MonadExplorer by BlockVision,blockvisionhq,0,error,Response returned an error code
+2026-07-02,Monadata AI,monadata_ai,0,error,Response returned an error code
+2026-07-02,Monday Trade,MondayTrade_,0,error,Response returned an error code
+2026-07-02,Monorail,monorail_xyz,0,error,Response returned an error code
+2026-07-02,Morpheus,Morpheus_Farm,0,error,Response returned an error code
+2026-07-02,Moseiki,MoseikiApp,0,error,Response returned an error code
+2026-07-02,Mozi,mozifinance,0,error,Response returned an error code
+2026-07-02,Mu Digital,MuDigitalHQ,0,error,Response returned an error code
+2026-07-02,Multipli,multiplifi,0,error,Response returned an error code
+2026-07-02,Multisynq,multisynq,0,error,Response returned an error code
+2026-07-02,NADSA,0xNADSA,0,error,Response returned an error code
+2026-07-02,NFTs2Me,NFTs2Me,0,error,Response returned an error code
+2026-07-02,NXTchain,NXT_chain,0,error,Response returned an error code
+2026-07-02,Nabla Finance,nablafi,0,error,Response returned an error code
+2026-07-02,Nad.fun,naddotfun,0,error,Response returned an error code
+2026-07-02,NadSmith,NadSmith_,0,error,Response returned an error code
+2026-07-02,Narrative,narrativexyz,0,error,Response returned an error code
+2026-07-02,Narwhal Finance,Narwhal_Finance,0,error,Response returned an error code
+2026-07-02,Neverland,neverland_money,0,error,Response returned an error code
+2026-07-02,Nillion,nillion,0,error,Response returned an error code
+2026-07-02,Router Protocol,routerprotocol,0,error,Response returned an error code
+2026-07-02,NitroFinance,NitroFinance,0,error,Response returned an error code
+2026-07-02,Nomas Wallet,NomasWalletReal,0,error,Response returned an error code
+2026-07-02,Nostra,nostrafinance,0,error,Response returned an error code
+2026-07-02,Notifi,NotifiNetwork,0,error,Response returned an error code
+2026-07-02,Noves,noves_fi,0,error,Response returned an error code
+2026-07-02,Nubila Network,nubilanetwork,0,error,Response returned an error code
+2026-07-02,Nunchi,nunchi,0,error,Response returned an error code
+2026-07-02,OKX Explorer,okxexplorer,0,error,Response returned an error code
+2026-07-02,OKX Wallet,wallet,0,error,Response returned an error code
+2026-07-02,OSL Pay,oslpay,0,error,Response returned an error code
+2026-07-02,OctoSwap,octoswapdex,0,error,Response returned an error code
+2026-07-02,Omnia,ExploreOmnia,0,error,Response returned an error code
+2026-07-02,Opals,Opals_io,0,error,Response returned an error code
+2026-07-02,OpenOcean,OpenOceanGlobal,0,error,Response returned an error code
+2026-07-02,OpenSea,opensea,0,error,Response returned an error code
+2026-07-02,Orbiter Finance,Orbiter_Finance,0,error,Response returned an error code
+2026-07-02,Orderly Network,orderlynetwork,0,error,Response returned an error code
+2026-07-02,Orochi Network,OrochiNetwork,0,error,Response returned an error code
+2026-07-02,Outpost Surge,OutpostSurge,0,error,Response returned an error code
+2026-07-02,Owlto Finance,Owlto_Finance,0,error,Response returned an error code
+2026-07-02,PLAY Network,0xplay_network,0,error,Response returned an error code
+2026-07-02,POINK,poinkofficial,0,error,Response returned an error code
+2026-07-02,PancakeSwap,PancakeSwap,0,error,Response returned an error code
+2026-07-02,Pangea,In_Pangea,0,error,Response returned an error code
+2026-07-02,Para,get_para,0,error,Response returned an error code
+2026-07-02,Pecker,pecker_so,0,error,Response returned an error code
+2026-07-02,Peridot,peridotprotocol,0,error,Response returned an error code
+2026-07-02,Permute Finance,permute_finance,0,error,Response returned an error code
+2026-07-02,Perpl,perpltrade,0,error,Response returned an error code
+2026-07-02,Phantom,phantom,0,error,Response returned an error code
+2026-07-02,Pimlico,pimlicoHQ,0,error,Response returned an error code
+2026-07-02,Pingu Exchange,PinguExchange,0,error,Response returned an error code
+2026-07-02,Plato,plato2earn,0,error,Response returned an error code
+2026-07-02,PolyFlow,Polyflow_PayFi,0,error,Response returned an error code
+2026-07-02,Poply,poply_xyz,0,error,Response returned an error code
+2026-07-02,Poster.fun,Posterdotfun,0,error,Response returned an error code
+2026-07-02,Primex Finance,primex_official,0,error,Response returned an error code
+2026-07-02,Primus,primus_labs,0,error,Response returned an error code
+2026-07-02,Privy,privy_io,0,error,Response returned an error code
+2026-07-02,Proof-of-Skill,proofofskill,0,error,Response returned an error code
+2026-07-02,Puffer Finance,Puffer_Finance,0,error,Response returned an error code
+2026-07-02,PumpBTC,Pumpbtcxyz,0,error,Response returned an error code
+2026-07-02,Purps,PurpsExchange,0,error,Response returned an error code
+2026-07-02,Pyth Network,PythNetwork,0,error,Response returned an error code
+2026-07-02,QuickNode,QuickNode,0,error,Response returned an error code
+2026-07-02,Rabble,0xRabble,0,error,Response returned an error code
+2026-07-02,RareBetSports,RareBetSports,0,error,Response returned an error code
+2026-07-02,Rayvo,rayvo_xyz,0,error,Response returned an error code
+2026-07-02,RedStone,redstone_defi,0,error,Response returned an error code
+2026-07-02,Redbrick,RedbrickLand,0,error,Response returned an error code
+2026-07-02,Relend Network,relend_network,0,error,Response returned an error code
+2026-07-02,Renzo,RenzoProtocol,0,error,Response returned an error code
+2026-07-02,Reown,reown_,0,error,Response returned an error code
+2026-07-02,Reservoir,reservoir0x,0,error,Response returned an error code
+2026-07-02,RgbClash,rgbclash_xyz,0,error,Response returned an error code
+2026-07-02,Rhino.fi,rhinofi,0,error,Response returned an error code
+2026-07-02,Rubic,CryptoRubic,0,error,Response returned an error code
+2026-07-02,Rug Rumble,RugRumble,0,error,Response returned an error code
+2026-07-02,Rumi,RumiLabs_io,0,error,Response returned an error code
+2026-07-02,SQD,helloSQD,0,error,Response returned an error code
+2026-07-02,STAGE.fun,stagedotfun,0,error,Response returned an error code
+2026-07-02,SafePal,iSafePal,0,error,Response returned an error code
+2026-07-02,Scatter.art,scatter_art,0,error,Response returned an error code
+2026-07-02,Sela Network,SelaNetwork,0,error,Response returned an error code
+2026-07-02,Sherpa,sherpa_trade,0,error,Response returned an error code
+2026-07-02,Showdown,showdown_gg,0,error,Response returned an error code
+2026-07-02,Sidekick,Sidekick_Labs,0,error,Response returned an error code
+2026-07-02,SkyTrade,SkyTradeNetwork,0,error,Response returned an error code
+2026-07-02,Slogain,SlogainDaily,0,error,Response returned an error code
+2026-07-02,Solv Protocol,SolvProtocol,0,error,Response returned an error code
+2026-07-02,Spine Finance,spineprotocol,0,error,Response returned an error code
+2026-07-02,Sprout,sproutfi_xyz,0,error,Response returned an error code
+2026-07-02,StakeStone,stake_stone,0,error,Response returned an error code
+2026-07-02,Stargate,StargateFinance,0,error,Response returned an error code
+2026-07-02,StationX,stationxnetwork,0,error,Response returned an error code
+2026-07-02,Stork,StorkOracle,0,error,Response returned an error code
+2026-07-02,SubQuery,SubQueryNetwork,0,error,Response returned an error code
+2026-07-02,Sumer,sumermoney,0,error,Response returned an error code
+2026-07-02,Sunscreen,sunscreentech,0,error,Response returned an error code
+2026-07-02,Swaap,SwaapFinance,0,error,Response returned an error code
+2026-07-02,Switchboard,switchboardxyz,0,error,Response returned an error code
+2026-07-02,Swyrl Finance,SwyrlFi,0,error,Response returned an error code
+2026-07-02,T3rn,t3rn_io,0,error,Response returned an error code
+2026-07-02,Tadle,tadle_com,0,error,Response returned an error code
+2026-07-02,Talentum,TalentumID,0,error,Response returned an error code
+2026-07-02,Tally,tallyxyz,0,error,Response returned an error code
+2026-07-02,Tarobase,0xtarobase,0,error,Response returned an error code
+2026-07-02,Terminal 3,terminal3io,0,error,Response returned an error code
+2026-07-02,Tezza Poker,tezzapoker,0,error,Response returned an error code
+2026-07-02,The Graph,graphprotocol,0,error,Response returned an error code
+2026-07-02,The Vape Labs,thevapelabs,0,error,Response returned an error code
+2026-07-02,Thirdweb,thirdweb,0,error,Response returned an error code
+2026-07-02,Timelock,Timelock_Trade,0,error,Response returned an error code
+2026-07-02,Timeswap,TimeswapLabs,0,error,Response returned an error code
+2026-07-02,TokenPocket,TokenPocket_TP,0,error,Response returned an error code
+2026-07-02,TownSquare,TownSquarexyz,0,error,Response returned an error code
+2026-07-02,Tread.fi,tread_fi,0,error,Response returned an error code
+2026-07-02,Triton One,triton_one,0,error,Response returned an error code
+2026-07-02,Turnkey,turnkeyhq,0,error,Response returned an error code
+2026-07-02,TypeX,TypeXKeyboard,0,error,Response returned an error code
+2026-07-02,Uniswap,Uniswap,0,error,Response returned an error code
+2026-07-02,Uniswap Wallet,Uniswap,0,error,Response returned an error code
+2026-07-02,Unmarshal,unmarshalAI,0,error,Response returned an error code
+2026-07-02,Valor Quest,valorquestgame,0,error,Response returned an error code
+2026-07-02,Web3Auth,web3auth,0,error,Response returned an error code
+2026-07-02,Winks.fun,winksdotfun,0,error,Response returned an error code
+2026-07-02,Wonad,thiswonad,0,error,Response returned an error code
+2026-07-02,Wormhole,wormhole,0,error,Response returned an error code
+2026-07-02,X2C,PlayFlappyTrump,0,error,Response returned an error code
+2026-07-02,XL,xldotfun,0,error,Response returned an error code
+2026-07-02,Yamata,yamataexchange,0,error,Response returned an error code
+2026-07-02,YieldKingZ,Yieldkingz,0,error,Response returned an error code
+2026-07-02,Zapry,0xZapry,0,error,Response returned an error code
+2026-07-02,Zerion,zerion,0,error,Response returned an error code
+2026-07-02,ZeroDev,zerodev_app,0,error,Response returned an error code
+2026-07-02,Zona,zona_io,0,error,Response returned an error code
+2026-07-02,dFusion AI,dfusionai,0,error,Response returned an error code
